@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		ACAFEB7B2059DA67003E817D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFEB7A2059DA67003E817D /* AppDelegate.swift */; };
-		ACAFEB7D2059DA67003E817D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFEB7C2059DA67003E817D /* ViewController.swift */; };
+		ACAFEB7D2059DA67003E817D /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFEB7C2059DA67003E817D /* QuotesViewController.swift */; };
 		ACAFEB802059DA67003E817D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAFEB7E2059DA67003E817D /* Main.storyboard */; };
 		ACAFEB822059DA67003E817D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAFEB812059DA67003E817D /* Assets.xcassets */; };
 		ACAFEB852059DA67003E817D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAFEB832059DA67003E817D /* LaunchScreen.storyboard */; };
+		ACAFEB8D2059E1DD003E817D /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFEB8C2059E1DD003E817D /* ConfigViewController.swift */; };
+		ACAFEB8F2059E1F4003E817D /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFEB8E2059E1F4003E817D /* SaveViewController.swift */; };
+		ACAFEB922059F558003E817D /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFEB912059F558003E817D /* QuotesManager.swift */; };
+		ACAFEB942059F56F003E817D /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFEB932059F56F003E817D /* Quote.swift */; };
+		ACAFEB962059F5B4003E817D /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = ACAFEB952059F5B3003E817D /* quotes.json */; };
+		ACAFEB982059FDE8003E817D /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFEB972059FDE8003E817D /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACAFEB772059DA67003E817D /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAFEB7A2059DA67003E817D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACAFEB7C2059DA67003E817D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACAFEB7C2059DA67003E817D /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		ACAFEB7F2059DA67003E817D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACAFEB812059DA67003E817D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACAFEB842059DA67003E817D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACAFEB862059DA67003E817D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAFEB8C2059E1DD003E817D /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		ACAFEB8E2059E1F4003E817D /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		ACAFEB912059F558003E817D /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		ACAFEB932059F56F003E817D /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		ACAFEB952059F5B3003E817D /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = quotes.json; path = "../../../Downloads/pensamentos-files/quotes.json"; sourceTree = "<group>"; };
+		ACAFEB972059FDE8003E817D /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		ACAFEB792059DA67003E817D /* Pensamentos */ = {
 			isa = PBXGroup;
 			children = (
+				ACAFEB902059E1FF003E817D /* Controllers */,
 				ACAFEB7A2059DA67003E817D /* AppDelegate.swift */,
-				ACAFEB7C2059DA67003E817D /* ViewController.swift */,
 				ACAFEB7E2059DA67003E817D /* Main.storyboard */,
 				ACAFEB812059DA67003E817D /* Assets.xcassets */,
+				ACAFEB952059F5B3003E817D /* quotes.json */,
 				ACAFEB832059DA67003E817D /* LaunchScreen.storyboard */,
 				ACAFEB862059DA67003E817D /* Info.plist */,
+				ACAFEB972059FDE8003E817D /* Configuration.swift */,
+				ACAFEB932059F56F003E817D /* Quote.swift */,
+				ACAFEB912059F558003E817D /* QuotesManager.swift */,
 			);
 			path = Pensamentos;
+			sourceTree = "<group>";
+		};
+		ACAFEB902059E1FF003E817D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFEB7C2059DA67003E817D /* QuotesViewController.swift */,
+				ACAFEB8C2059E1DD003E817D /* ConfigViewController.swift */,
+				ACAFEB8E2059E1F4003E817D /* SaveViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAFEB962059F5B4003E817D /* quotes.json in Resources */,
 				ACAFEB852059DA67003E817D /* LaunchScreen.storyboard in Resources */,
 				ACAFEB822059DA67003E817D /* Assets.xcassets in Resources */,
 				ACAFEB802059DA67003E817D /* Main.storyboard in Resources */,
@@ -136,8 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACAFEB7D2059DA67003E817D /* ViewController.swift in Sources */,
+				ACAFEB922059F558003E817D /* QuotesManager.swift in Sources */,
+				ACAFEB7D2059DA67003E817D /* QuotesViewController.swift in Sources */,
+				ACAFEB982059FDE8003E817D /* Configuration.swift in Sources */,
+				ACAFEB8F2059E1F4003E817D /* SaveViewController.swift in Sources */,
 				ACAFEB7B2059DA67003E817D /* AppDelegate.swift in Sources */,
+				ACAFEB942059F56F003E817D /* Quote.swift in Sources */,
+				ACAFEB8D2059E1DD003E817D /* ConfigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
